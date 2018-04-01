@@ -1,0 +1,73 @@
+
+
+#quoteDisplay{
+	font-size:20px;
+	font-family: "Open Sans", Sans;
+	text-align: left;
+}
+
+#nameDisplay {
+	max-width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Bree Serif", serif;
+	font-size: 1.5em;
+
+}
+
+#mainBox {
+	min-width: 200px;
+	max-width: 640px;
+	background-color: #ededed;
+	padding: 20px;
+	position:relative;
+  	margin:8% auto auto auto;
+  	padding:20px;
+}
+
+#quoteBox {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+#buttonBox {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+#quoteButton {
+	background-color: #bcd1f2; /* light blue */
+	border: none;
+    color: white;
+	float:right;
+    display: inline-block;
+    margin-right:0px;
+    clear:left;
+    padding: 10px 20px;
+    font-size: 15px;
+
+}
+
+.tweetButton {
+	background-color: #bcd1f2; /* light blue */
+	border: none;
+    color: white;
+	float:left;
+    display: inline-block;
+    margin-right:0px;
+    clear:left;
+    padding: 10px 20px;
+    font-size: 15px;
+
+}
+
+.quoteText {
+	font-family: 'bree+serif', serif;
+	font-size: 1em;
+
+}
+
+.quoteMarks {
+	color: #bcd1f2; /* light blue */
+	text-align: center;
+}

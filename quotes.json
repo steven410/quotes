@@ -1,0 +1,23 @@
+{
+  "Micheal": {
+  	"img": "#",
+  	"name": "Micheal Scott",
+  	"quotes":[
+  		"I'm not superstitious, but I'm a little-stitious.", 
+  		"Sometimes I'll find a sentence and I don't even know where it's going. I just hope I find it along the way.", 
+  		"You don't know me. You've just see my penis",
+  		"I am Beyonce, always."
+  	]
+  },
+  "Dwight": {
+    "img": "#",
+    "name": "Dwight Schrute",
+    "quotes":[
+      "It has to be official and it has to be urine.",
+      "I am fast. To give you a reference point I am somewhere between a snake and a mongoose… And a panther.",
+      "Reject a woman, and she will never let it go. One of the many defects of their kind. Also, weak arms.",
+      "There are a huge number of yeast infections in this county. Probably because we’re downriver from that old bread factory.",
+      "You couldn’t handle my undivided attention."
+    ]
+  }
+}
