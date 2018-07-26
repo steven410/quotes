@@ -1,3 +1,17 @@
+// var json = (function() {
+//         var json = null;
+//         $.ajax({
+//             'async': false,
+//             'global': false,
+//             'url': "/quotes.json",
+//             'dataType': "json",
+//             'success': function (data) {
+//                 json = data;
+//             }
+//         });
+//         return json;
+//     })();
+
 var quotes = [
 ['It\'s like a party for limo drivers.'],
 ['I have very little patience for stupidity.'],
@@ -24,31 +38,30 @@ var names = [
 	['Stanley Hudson']
 ]
 
-function newQuote() {
-document.getElementById('newQuote').onclick = displayQuote();
-}
+document.getElementById('newQuote').addEventListener('click', displayQuote);
+
+////randomNumber.quotes.randomQuoteNumber
 
 function displayQuote() {
 	let randomNumber = Math.floor(Math.random() * (quotes.length));
 	document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber][0];
-	document.getElementById('tweet').href = "https://twitter.com/intent/tweet?text=" + quotes[randomNumber][0];
-	document.getElementById('nameDisplay').innerHTML = names[randomNumber][0];
-	
+	// document.getElementById('tweet').href = "https://twitter.com/intent/tweet?text=" + quotes[randomNumber][0];
+	document.getElementById('nameDisplay').innerHTML = names[randomNumber][0];	
 }
 
-window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
+// window.twttr = (function(d, s, id) {
+//   var js, fjs = d.getElementsByTagName(s)[0],
+//     t = window.twttr || {};
+//   if (d.getElementById(id)) return t;
+//   js = d.createElement(s);
+//   js.id = id;
+//   js.src = "https://platform.twitter.com/widgets.js";
+//   fjs.parentNode.insertBefore(js, fjs);
 
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
+//   t._e = [];
+//   t.ready = function(f) {
+//     t._e.push(f);
+//   };
 
-  return t;
-}(document, "script", "twitter-wjs"));
+//   return t;
+// }(document, "script", "twitter-wjs"));

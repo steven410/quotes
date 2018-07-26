@@ -1,5 +1,5 @@
 {
-  "Micheal": {
+  "1": {
   	"img": "#",
   	"name": "Micheal Scott",
   	"quotes":[
@@ -9,7 +9,7 @@
   		"I am Beyonce, always."
   	]
   },
-  "Dwight": {
+  "2": {
     "img": "#",
     "name": "Dwight Schrute",
     "quotes":[
@@ -21,3 +21,4 @@
     ]
   }
 }
+
